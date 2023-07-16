@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="D:\todolist\todostyle.css">
+    <link rel='stylesheet'href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Todo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="child">
+                <figure>
+                    <img src="D:\todolist\todolist.png" id="img" />
+                    <figurecaption id="caption">Enter your list Here👇</figurecaption>
+                </figure>
+            </div>
+            <div id="field">
+                <input type="text" placeholder="✍Add item" id="input">
+                <button id="btn">ADD</button>
+            </div>
+            <div id="search-box">
+                <input type="text" style="font-family: 'Font Awesome 5 Free'; font-weight: 700;" placeholder=" &#xf002; Search..." id="searchinput" onkeyup="searchitem()">
+            </div>
+            <ul id="list">
+                <!-- <li class="checked">task1</li>
+                <li>task2</li>
+                <li>task3</li> -->
+            </ul>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>
